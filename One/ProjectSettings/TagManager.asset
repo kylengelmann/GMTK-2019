@@ -14,11 +14,11 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Player
+  - Enemies
+  - PlayerBullets
+  - EnemieBullets
+  - Bounce
   - 
   - 
   - 
