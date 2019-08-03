@@ -57,7 +57,6 @@ public class InputManager : MonoBehaviour
         {
             CurrentControllerMode = ControllerMode.Controller;
         }
-        Debug.Log(tempAxis);
         inputValues[PlayerInputType.MoveX] = tempAxis.x;
         inputValues[PlayerInputType.MoveY] = tempAxis.y;
 

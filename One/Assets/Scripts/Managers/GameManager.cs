@@ -37,10 +37,13 @@ public class GameManager : MonoBehaviour
         Player.transform.SetPositionAndRotation(playerSpawn.transform.position, playerSpawn.transform.rotation);
         Player.Init();
 
-        if(OnLevelStart != null) OnLevelStart();
+        if(OnLevelStart != null) {
+            OnLevelStart();
+            OnLevelStart = null;
+        }
         HasStartedLevel = true;
     }
 
-    public UnityAction OnLevelStart;
+    public static UnityAction OnLevelStart;
 
 }
