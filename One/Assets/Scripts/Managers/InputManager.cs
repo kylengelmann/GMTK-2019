@@ -27,6 +27,8 @@ public class InputManager : MonoBehaviour
     static Dictionary<PlayerInputType, float> inputValues = new Dictionary<PlayerInputType, float>();
     static Dictionary<PlayerInputType, bool> wasDown = new Dictionary<PlayerInputType, bool>();
 
+    public float deadZone = .25f;
+
     public static ControllerMode CurrentControllerMode {get; private set;}
     // Start is called before the first frame update
     void Awake()
@@ -49,7 +51,7 @@ public class InputManager : MonoBehaviour
         ControllerMode prevMode = CurrentControllerMode;
 
         Vector2 tempAxis = new Vector2(Input.GetAxisRaw("MoveX"), Input.GetAxisRaw("MoveY"));
-        if(tempAxis.sqrMagnitude < .04f)
+        if(tempAxis.sqrMagnitude < deadZone*deadZone)
         {
             tempAxis = Vector2.zero;
         }
@@ -61,7 +63,7 @@ public class InputManager : MonoBehaviour
         inputValues[PlayerInputType.MoveY] = tempAxis.y;
 
         tempAxis = new Vector2(Input.GetAxisRaw("AimX"), Input.GetAxisRaw("AimY"));
-        if (tempAxis.sqrMagnitude < .04f)
+        if (tempAxis.sqrMagnitude < deadZone * deadZone)
         {
             tempAxis = Vector2.zero;
         }
