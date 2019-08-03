@@ -5,6 +5,10 @@ using UnityEngine;
 public class PlayerCharacter : MonoBehaviour
 {
 
+    public WeaponBase DefaultWeaponPrefab;
+    WeaponBase currentWeapon;
+    WeaponBase storedWeapon;
+
     public void Init()
     {
         
@@ -40,16 +44,11 @@ public class PlayerCharacter : MonoBehaviour
     void Update()
     {
         if(!GameManager.HasStartedLevel) return;
-        float dt = Time.deltaTime;
+        float dt = TimeManager.GetTimeDelta(TimeChannel.Player);
         movementComponent.UpdatePosition(moveInput, dt);
         if(aimDir.sqrMagnitude < .04f)
         {
             aimDir = moveInput;
-        }
-        if(aimDir.sqrMagnitude >= .04f) {
-
-            transform.rotation = Quaternion.LookRotation(new Vector3(aimDir.x, 0f, aimDir.y), Vector3.up);
-            Debug.Log(transform.forward);
         }
     }
 }
