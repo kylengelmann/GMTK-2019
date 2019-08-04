@@ -78,4 +78,10 @@ public class GameManager : MonoBehaviour
 
     public static UnityAction OnLevelStart;
 
+    public static void GameOver()
+    {
+
+    }
+
 }
+

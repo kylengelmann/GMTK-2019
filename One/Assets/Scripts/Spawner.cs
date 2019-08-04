@@ -49,6 +49,7 @@ public class Spawner : MonoBehaviour
         float timeWaiting = Random.value * waitTime;
         while(true)
         {
+            timeAlive += TimeManager.GetTimeDelta(TimeChannel.World);
             Vector3 viewPos = Camera.main.WorldToViewportPoint(transform.position);
             if ((viewPos.x > -.05f && viewPos.x < 1.05f) && (viewPos.y > -.05f && viewPos.y < 1.05f))
             {
@@ -56,7 +57,6 @@ public class Spawner : MonoBehaviour
                 continue;
             }
             timeWaiting += TimeManager.GetTimeDelta(TimeChannel.World);
-            timeAlive += TimeManager.GetTimeDelta(TimeChannel.World);
             if(timeWaiting < waitTime)
             {
                 yield return null;

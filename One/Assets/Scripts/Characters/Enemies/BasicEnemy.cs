@@ -55,7 +55,7 @@ public class BasicEnemy : MonoBehaviour, IDamageable
         audio.GetComponent<PooledAudioSource>().PlaySound(dieSound);
     }
 
-  public virtual void Damage()
+    public virtual void Damage(int amount = 1)
     {
         DieSound();
         Die();
