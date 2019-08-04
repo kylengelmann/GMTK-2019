@@ -481,7 +481,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  timeFollowCurve: 100
+  timeFollowCurve: 120
 --- !u!4 &506834192
 Transform:
   m_ObjectHideFlags: 0
@@ -655,7 +655,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  timeFollowCurve: 120
+  timeFollowCurve: 240
 --- !u!4 &560206545
 Transform:
   m_ObjectHideFlags: 0
@@ -1790,22 +1790,22 @@ MonoBehaviour:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
-      time: -0.004194119
-      value: 0.008121122
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
+      time: 0
+      value: 0
+      inSlope: 0.010217272
+      outSlope: 0.010217272
+      tangentMode: 34
       weightedMode: 0
       inWeight: 0
-      outWeight: 0
+      outWeight: 0.33333334
     - serializedVersion: 3
-      time: 1.0297852
-      value: 0.049587637
-      inSlope: 0.14874941
-      outSlope: 0.14874941
-      tangentMode: 0
+      time: 3.3288574
+      value: 0.03401184
+      inSlope: 0.010217272
+      outSlope: 0.010217272
+      tangentMode: 34
       weightedMode: 0
-      inWeight: 0.048413258
+      inWeight: 0.33333334
       outWeight: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
@@ -1858,7 +1858,7 @@ MonoBehaviour:
   - enemyType: 4
     probability: 1
   - enemyType: 8
-    probability: 0.2
+    probability: 0.1
   chanceOfSpawning:
     serializedVersion: 2
     m_Curve:

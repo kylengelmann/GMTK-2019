@@ -76,7 +76,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   returnAction: 1
   pooledObjectType: 5
-  MaxLifetime: 30
+  MaxLifetime: 60
   timeChannel: 2
 --- !u!1 &7450970555510465947
 GameObject:
@@ -104,7 +104,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7450970555510465947}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0.31, y: 0, z: -0.9}
+  m_LocalPosition: {x: 0.31, y: -98, z: -0.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1078288847389219710}
@@ -166,7 +166,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7450970555510465947}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eda15172c8de18a4ca01227ced23f1b3, type: 3}
   m_Name: 
