@@ -17,6 +17,13 @@ public enum PooledObjectType
     Shotgun,
     OneGun,
     AudioSource,
+    PlayerRocket,
+    EnemyRocket,
+    RocketBoi,
+    EnemyExplodeAttack,
+    PlayerExplodeAttack,
+    RocketLauncher,
+
 }
 
 public class ObjectPoolManager : MonoBehaviour

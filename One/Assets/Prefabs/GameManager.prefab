@@ -56,6 +56,9 @@ MonoBehaviour:
   - weapon: 7
     sprite: {fileID: -6367717394137300216, guid: d999f63e3f6766747b1cf3611c89bd5e,
       type: 3}
+  - weapon: 15
+    sprite: {fileID: 5225757152932697959, guid: d999f63e3f6766747b1cf3611c89bd5e,
+      type: 3}
 --- !u!114 &669682338
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -140,3 +143,27 @@ MonoBehaviour:
     prefab: {fileID: 2966201683515039227, guid: 7049dd8a533fa714f8dc72424a9b0dcd,
       type: 3}
     NumToPreinstantiate: 10
+  - ObjectType: 10
+    prefab: {fileID: 1576002493451603512, guid: d3a7c12db504bf749815de8938cb198b,
+      type: 3}
+    NumToPreinstantiate: 1
+  - ObjectType: 11
+    prefab: {fileID: 4225011819090508795, guid: e5d4ca4acfd03f44ba0546aed5421503,
+      type: 3}
+    NumToPreinstantiate: 3
+  - ObjectType: 12
+    prefab: {fileID: 5194008549623990994, guid: 22149405f8627854b9a0a5b9187092c7,
+      type: 3}
+    NumToPreinstantiate: 5
+  - ObjectType: 13
+    prefab: {fileID: 1260734545733046591, guid: 83b798a0ac37a5c40b8318d2b5b28906,
+      type: 3}
+    NumToPreinstantiate: 5
+  - ObjectType: 15
+    prefab: {fileID: 6160157446945992700, guid: 1b4c9b67eae419c40b4dc336b10c6151,
+      type: 3}
+    NumToPreinstantiate: 2
+  - ObjectType: 14
+    prefab: {fileID: 2615999777114955428, guid: 5f34bb81ee50d014694c128ed99cbe85,
+      type: 3}
+    NumToPreinstantiate: 5

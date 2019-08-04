@@ -14,13 +14,13 @@ public class BasicProjectile : MonoBehaviour
 
     
 
-    Vector3 direction;
+    protected Vector3 direction;
 
     const float timeTransition = .5f;
 
     float timeAliveAbsolute = 0f;
 
-    PooledObjectHandler pooledObjectHandler;
+    protected PooledObjectHandler pooledObjectHandler;
 
     private void Awake()
     {
