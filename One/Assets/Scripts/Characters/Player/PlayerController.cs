@@ -61,5 +61,6 @@ public class PlayerController : MonoBehaviour
         {
             if(InputManager.GetButtonDown(PlayerInputType.Shoot)) Character.Shoot();
         }
+        if(InputManager.GetButtonDown(PlayerInputType.Switch)) Character.Switch();
     }
 }

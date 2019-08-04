@@ -7,8 +7,8 @@ public class PlayerCharacter : MonoBehaviour, IDamageable
 
     public GameObject Reticle;
     public PooledObjectType DefaultWeapon;
-    WeaponBase currentWeapon;
-    WeaponBase storedWeapon;
+    public WeaponBase currentWeapon;
+    public WeaponBase storedWeapon;
 
     public float weaponDist = 1f;
 
@@ -50,6 +50,24 @@ public class PlayerCharacter : MonoBehaviour, IDamageable
             currentWeapon.Shoot();
             currentWeapon.transform.parent = null;
             currentWeapon = null;
+            Reticle.SetActive(false);
+        }
+    }
+
+    public void Switch()
+    {
+        WeaponBase temp;
+        temp = currentWeapon;
+        currentWeapon = storedWeapon;
+        storedWeapon = temp;
+        if(storedWeapon)
+        storedWeapon.gameObject.SetActive(false);
+        if(currentWeapon) {
+            currentWeapon.gameObject.SetActive(true);
+            Reticle.SetActive(true);
+        }
+        else
+        {
             Reticle.SetActive(false);
         }
     }

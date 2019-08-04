@@ -10,7 +10,7 @@ public enum PlayerInputType
     AimX,
     AimY,
     Shoot,
-
+    Switch,
 
     NumInputTypes
 }
@@ -81,6 +81,14 @@ public class InputManager : MonoBehaviour
             CurrentControllerMode = ControllerMode.Controller;
         }
 
+        float Switch = Input.GetKey(KeyCode.Joystick8Button5) ? 1f : -1f;
+        if(Switch > 0f)
+        {
+            CurrentControllerMode = ControllerMode.Controller;
+        }
+        inputValues[PlayerInputType.Switch] = Switch;
+
+
         if(Input.GetKey(KeyCode.A))
         {
             tempAxis.x = -1f;
@@ -113,7 +121,17 @@ public class InputManager : MonoBehaviour
             shoot = -1f;
         }
 
-        if((Input.mousePosition - mousePos).sqrMagnitude > .5f)
+        if (Input.GetKey(KeyCode.Space))
+        {
+            Switch = 1f;
+            CurrentControllerMode = ControllerMode.Keyboard;
+        }
+        else
+        {
+            Switch = -1f;
+        }
+
+        if ((Input.mousePosition - mousePos).sqrMagnitude > .5f)
         {
             mousePos = Input.mousePosition;
             CurrentControllerMode = ControllerMode.Keyboard;
@@ -131,6 +149,7 @@ public class InputManager : MonoBehaviour
 
 
             inputValues[PlayerInputType.Shoot] = shoot;
+            inputValues[PlayerInputType.Switch] = Switch;
         }
 
         if(CurrentControllerMode != prevMode && OnControllerModeChange != null)
