@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: gunDumLive
+  m_Name: laserDumDumAlive
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,10 +20,10 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: 2731795287329381114, guid: 17a069b3956282a4cad12e7fdcf56786,
+      value: {fileID: 7153525974244860219, guid: 17a069b3956282a4cad12e7fdcf56786,
         type: 3}
     - time: 0.14285715
-      value: {fileID: 3229708652140166120, guid: 17a069b3956282a4cad12e7fdcf56786,
+      value: {fileID: 414078030284958077, guid: 17a069b3956282a4cad12e7fdcf56786,
         type: 3}
     attribute: m_Sprite
     path: 
@@ -44,8 +44,8 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: 2731795287329381114, guid: 17a069b3956282a4cad12e7fdcf56786, type: 3}
-    - {fileID: 3229708652140166120, guid: 17a069b3956282a4cad12e7fdcf56786, type: 3}
+    - {fileID: 7153525974244860219, guid: 17a069b3956282a4cad12e7fdcf56786, type: 3}
+    - {fileID: 414078030284958077, guid: 17a069b3956282a4cad12e7fdcf56786, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}

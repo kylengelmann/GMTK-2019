@@ -6,8 +6,8 @@ AnimatorOverrideController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: oneGun
+  m_Name: laserDumDum
   m_Controller: {fileID: 9100000, guid: 20f993b3f0ba7264d835e76075489870, type: 2}
   m_Clips:
   - m_OriginalClip: {fileID: 7400000, guid: 4dfb97ac98a90984d93e39f8cc9c2dab, type: 2}
-    m_OverrideClip: {fileID: 7400000, guid: 48c323701dc8e184db029a266655c228, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: ae8f92a17dfe5f049a1fdc3c6b0c834a, type: 2}
