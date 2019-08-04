@@ -76,7 +76,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   returnAction: 1
   pooledObjectType: 5
-  MaxLifetime: 5
+  MaxLifetime: 30
   timeChannel: 2
 --- !u!1 &7450970555510465947
 GameObject:
