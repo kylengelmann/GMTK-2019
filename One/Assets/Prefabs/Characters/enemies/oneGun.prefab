@@ -114,6 +114,7 @@ MonoBehaviour:
   speed: 3.5
   bullets: 1
   shootCooldown: 5
+  dieSound: {fileID: 8300000, guid: a77f33bd269293f44bd0a3c5fac1f8b7, type: 3}
 --- !u!195 &178666204
 NavMeshAgent:
   m_ObjectHideFlags: 0

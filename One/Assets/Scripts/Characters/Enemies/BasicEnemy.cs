@@ -27,6 +27,7 @@ public class BasicEnemy : MonoBehaviour, IDamageable
     public PooledObjectType bullets = PooledObjectType.None;
     public float shootCooldown;
 
+    public AudioClip dieSound;
     
     NavMeshAgent agent;
 
@@ -46,10 +47,17 @@ public class BasicEnemy : MonoBehaviour, IDamageable
         }
     }
 
-
-
-    public virtual void Damage()
+    protected void DieSound()
     {
+        GameObject audio = ObjectPoolManager.GetPooledObject(PooledObjectType.AudioSource);
+        audio.transform.position = transform.position;
+        audio.SetActive(true);
+        audio.GetComponent<PooledAudioSource>().PlaySound(dieSound);
+    }
+
+  public virtual void Damage()
+    {
+        DieSound();
         Die();
     }
 

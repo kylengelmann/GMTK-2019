@@ -113,6 +113,9 @@ MonoBehaviour:
     probability: 0.5
   numDrops: 2
   speed: 4
+  bullets: -1
+  shootCooldown: 0
+  dieSound: {fileID: 8300000, guid: 3e1a7f63c1992014c93c898e7b5aab89, type: 3}
 --- !u!195 &3145853167162886350
 NavMeshAgent:
   m_ObjectHideFlags: 0
