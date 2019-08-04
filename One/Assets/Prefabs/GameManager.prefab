@@ -125,3 +125,14 @@ MonoBehaviour:
     prefab: {fileID: 9078779940981987174, guid: f30d11f5ed991df409d85593a2583bb5,
       type: 3}
     NumToPreinstantiate: 10
+  - ObjectType: 7
+    prefab: {fileID: 6125811106136440893, guid: c43d4d3d8967eed439d78f49c464f0c1,
+      type: 3}
+    NumToPreinstantiate: 3
+  - ObjectType: 8
+    prefab: {fileID: 1966736451797834068, guid: cac5898aeb2570e4abe2a7533f4d78be,
+      type: 3}
+    NumToPreinstantiate: 10
+  - ObjectType: 1
+    prefab: {fileID: 150583419607014987, guid: ad23c9f0fcff2f44d8be4c128196fce0, type: 3}
+    NumToPreinstantiate: 15
