@@ -119,7 +119,7 @@ NavMeshSettings:
     accuratePlacement: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 0}
+  m_NavMeshData: {fileID: 23800000, guid: 9ad1422aadf5adf40b7e32c23728512d, type: 2}
 --- !u!1001 &45216891
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -890,7 +890,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &717884859
 Transform:
@@ -1379,7 +1379,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1387703806
 BoxCollider:
@@ -1401,7 +1401,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1387703805}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -2291,29 +2291,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d188a61cc983c7f49be3549215124a30, type: 3}
---- !u!1 &5494485723650840706 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4254109679995094705, guid: d188a61cc983c7f49be3549215124a30,
-    type: 3}
-  m_PrefabInstance: {fileID: 5494485723650840705}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &5494485723650840707
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5494485723650840706}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c2faca5916a50414c929b7cfd8bcfbba, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  PooledObjects:
-  - ObjectType: 0
-    prefab: {fileID: 2635327787662811216, guid: b4863ec9cd9481043ba4a5ba0cc2c6f3,
-      type: 3}
-    NumToPreinstantiate: 10
 --- !u!1001 &6326769129657458737
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2325,11 +2302,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pistol
-      objectReference: {fileID: 0}
-    - target: {fileID: 6956159548208173690, guid: 99726b5886bf68e4f9f5131ee3590843,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7068397045157771622, guid: 99726b5886bf68e4f9f5131ee3590843,
         type: 3}
