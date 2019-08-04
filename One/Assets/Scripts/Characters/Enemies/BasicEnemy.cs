@@ -36,6 +36,9 @@ public class BasicEnemy : MonoBehaviour, IDamageable
         WeaponPickup weaponPickup = pickup.GetComponent<WeaponPickup>();
         weaponPickup.weaponType = PooledObjectType.Pistol;
         weaponPickup.Init();
+        GameObject splosion = ObjectPoolManager.GetPooledObject(PooledObjectType.DeathExplosion);
+        splosion.transform.position = transform.position;
+        splosion.SetActive(true);
         ObjectPoolManager.ReturnPooledObject(enemyType, gameObject);
     }
     
