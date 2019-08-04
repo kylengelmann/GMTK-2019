@@ -94,7 +94,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
-  boomRadius: 2
+  boomRadius: 5
   boomLM:
     serializedVersion: 2
     m_Bits: 8192

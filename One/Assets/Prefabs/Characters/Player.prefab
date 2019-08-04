@@ -179,7 +179,7 @@ MonoBehaviour:
   DefaultWeapon: 2
   currentWeapon: {fileID: 0}
   storedWeapon: {fileID: 0}
-  numHits: 5
+  numHits: 20
   weaponDist: 0.7
 --- !u!114 &6272152490582850722
 MonoBehaviour:
