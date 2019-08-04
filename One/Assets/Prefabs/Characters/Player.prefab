@@ -47,8 +47,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed3db9e99bff7564783efd17fc77633d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DefaultWeaponPrefab: {fileID: 6326769129657458742, guid: 99726b5886bf68e4f9f5131ee3590843,
-    type: 3}
+  DefaultWeapon: 2
   weaponDist: 0.7
 --- !u!114 &6272152490582850722
 MonoBehaviour:

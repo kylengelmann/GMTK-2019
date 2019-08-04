@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerCharacter : MonoBehaviour
 {
 
-    public WeaponBase DefaultWeaponPrefab;
+    public PooledObjectType DefaultWeapon;
     WeaponBase currentWeapon;
     WeaponBase storedWeapon;
 
@@ -13,8 +13,9 @@ public class PlayerCharacter : MonoBehaviour
 
     public void Init()
     {
-        currentWeapon = Instantiate(DefaultWeaponPrefab, transform);
+        currentWeapon = ObjectPoolManager.GetPooledObject(DefaultWeapon).GetComponent<WeaponBase>();
         currentWeapon.transform.position = transform.position + Vector3.right*weaponDist;
+        currentWeapon.gameObject.SetActive(true);
     }
 
     PlayerMovementComponent movementComponent;

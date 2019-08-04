@@ -8,7 +8,8 @@ public enum PooledObjectType
 {
     PlayerBullet,
     EnemyBullet,
-
+    Pistol,
+    Pop,
 }
 
 public class ObjectPoolManager : MonoBehaviour
@@ -23,6 +24,8 @@ public class ObjectPoolManager : MonoBehaviour
 
     [SerializeField]
     PooledObjectInfo[] PooledObjects;
+
+    GameObject poolParent = null;
 
     static Dictionary<PooledObjectType, GameObject> prefabs = new Dictionary<PooledObjectType, GameObject>();
     static Dictionary<PooledObjectType, List<GameObject>> objectPools = new Dictionary<PooledObjectType, List<GameObject>>();
@@ -60,11 +63,12 @@ public class ObjectPoolManager : MonoBehaviour
 
     IEnumerator PreinstantiateObjectsRoutine()
     {
+        poolParent = new GameObject("ObjectPool");
         foreach(PooledObjectType type in numPreinstantiate.Keys)
         {
             GameObject prefab = prefabs[type];
             for(int i = 0; i < numPreinstantiate[type]; ++i) {
-                GameObject preInstantiated = Instantiate(prefab, instance.transform);
+                GameObject preInstantiated = Instantiate(prefab, poolParent.transform);
                 preInstantiated.SetActive(false);
                 objectPools[type].Add(preInstantiated);
             }
@@ -80,12 +84,14 @@ public class ObjectPoolManager : MonoBehaviour
         {
             pooledObject = pool[0];
             pool.RemoveAt(0);
+            pooledObject.transform.parent = null;
             return pooledObject;
         }
 
         pooledObject = Instantiate(prefabs[type]);
         pooledObject.SetActive(false);
 
+        pooledObject.transform.parent = null;
         return pooledObject;
     }
 
@@ -93,7 +99,7 @@ public class ObjectPoolManager : MonoBehaviour
     {
 
         returningObject.SetActive(false);
-        returningObject.transform.SetParent(instance.transform);
+        returningObject.transform.parent = instance.poolParent.transform;
         objectPools[type].Add(returningObject);
     }
 

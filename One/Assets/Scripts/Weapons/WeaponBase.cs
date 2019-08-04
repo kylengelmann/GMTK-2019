@@ -5,15 +5,19 @@ using UnityEngine.Events;
 
 public abstract class WeaponBase : MonoBehaviour
 {
+    public PooledObjectType pooledObjectType;
     bool hasFired;
+
 
     protected void Break()
     {
-        
-        //if(OnBreak != null)
-        //{
-        //    OnBreak();
-        //}
+        GameObject pop = ObjectPoolManager.GetPooledObject(PooledObjectType.Pop);
+
+        pop.transform.position = transform.position;
+        pop.SetActive(true);
+
+        ObjectPoolManager.ReturnPooledObject(pooledObjectType, gameObject);
+
     }
 
     //public UnityAction OnBreak;

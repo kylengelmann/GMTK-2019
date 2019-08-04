@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5092766209167042696}
   - component: {fileID: 669682338}
   - component: {fileID: 3140435711332276007}
+  - component: {fileID: 5494485723650840707}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -47,6 +48,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PlayerPrefab: {fileID: 5094028729839195023, guid: b428359f02fe32b47aa74cbe20f950f4,
     type: 3}
+  isInLevel: 1
 --- !u!114 &669682338
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -79,3 +81,28 @@ MonoBehaviour:
     childrenChannels: 
   - channel: 1
     childrenChannels: 
+--- !u!114 &5494485723650840707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4254109679995094705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2faca5916a50414c929b7cfd8bcfbba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PooledObjects:
+  - ObjectType: 0
+    prefab: {fileID: 2635327787662811216, guid: b4863ec9cd9481043ba4a5ba0cc2c6f3,
+      type: 3}
+    NumToPreinstantiate: 10
+  - ObjectType: 2
+    prefab: {fileID: 6956159548208173690, guid: 99726b5886bf68e4f9f5131ee3590843,
+      type: 3}
+    NumToPreinstantiate: 1
+  - ObjectType: 3
+    prefab: {fileID: 7108315306753970417, guid: ad15f99346c62c24fbd5bca8fac7da45,
+      type: 3}
+    NumToPreinstantiate: 5
