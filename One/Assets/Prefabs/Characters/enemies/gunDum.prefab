@@ -106,6 +106,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyType: 4
+  weaponDrops:
+  - weaponType: 2
+    probability: 0.5
+  - weaponType: 7
+    probability: 0.5
+  numDrops: 2
   speed: 4
 --- !u!195 &3145853167162886350
 NavMeshAgent:

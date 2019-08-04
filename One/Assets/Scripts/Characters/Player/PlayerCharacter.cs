@@ -81,6 +81,7 @@ public class PlayerCharacter : MonoBehaviour, IDamageable
             currentWeapon = ObjectPoolManager.GetPooledObject(weaponType).GetComponent<WeaponBase>();
             currentWeapon.transform.position = transform.position + Vector3.right * weaponDist;
             currentWeapon.transform.parent = transform;
+            currentWeapon.transform.localScale = Vector3.one;
             currentWeapon.gameObject.SetActive(true);
         }
         return pickedUp;

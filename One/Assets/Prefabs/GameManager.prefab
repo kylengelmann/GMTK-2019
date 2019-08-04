@@ -53,6 +53,9 @@ MonoBehaviour:
   - weapon: 2
     sprite: {fileID: -3264594361583143485, guid: d999f63e3f6766747b1cf3611c89bd5e,
       type: 3}
+  - weapon: 7
+    sprite: {fileID: -6367717394137300216, guid: d999f63e3f6766747b1cf3611c89bd5e,
+      type: 3}
 --- !u!114 &669682338
 MonoBehaviour:
   m_ObjectHideFlags: 0

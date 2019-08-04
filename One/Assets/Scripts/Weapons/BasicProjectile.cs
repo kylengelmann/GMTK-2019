@@ -44,7 +44,7 @@ public class BasicProjectile : MonoBehaviour
 
     public virtual void Fire(Vector3 direction)
     {
-        this.direction = direction;
+        this.direction = direction.normalized;
         timeAliveAbsolute = 0f;
     }
 
