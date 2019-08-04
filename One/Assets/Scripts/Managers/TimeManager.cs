@@ -32,6 +32,7 @@ public class TimeManager : MonoBehaviour
 
     private void Awake()
     {
+        if(timeInfos.Count > 0) return;
         foreach(TimeChannelSettings channel in timeChannels)
         {
             timeInfo info = new timeInfo();

@@ -179,6 +179,8 @@ MonoBehaviour:
   DefaultWeapon: 2
   currentWeapon: {fileID: 0}
   storedWeapon: {fileID: 0}
+  dead: {fileID: 8300000, guid: 6820c792fad05b8418215ca61246d413, type: 3}
+  ow: {fileID: 8300000, guid: 3ff871e8f1be70c4581def6df949d9a7, type: 3}
   numHits: 20
   weaponDist: 0.7
 --- !u!114 &6272152490582850722

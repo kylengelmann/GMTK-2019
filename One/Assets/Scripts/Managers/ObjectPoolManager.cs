@@ -62,14 +62,6 @@ public class ObjectPoolManager : MonoBehaviour
         instance = this;
     }
 
-    public static void ClearObjectPools()
-    {
-        foreach (PooledObjectType type in objectPools.Keys)
-        {
-            objectPools[type] = new List<GameObject>();
-        }
-    }
-
     public static Coroutine PreinstantiateObjects()
     {
         return instance.StartCoroutine(instance.PreinstantiateObjectsRoutine());
@@ -81,6 +73,7 @@ public class ObjectPoolManager : MonoBehaviour
         foreach(PooledObjectType type in numPreinstantiate.Keys)
         {
             GameObject prefab = prefabs[type];
+            objectPools[type] = new List<GameObject>();
             for(int i = 0; i < numPreinstantiate[type]; ++i) {
                 GameObject preInstantiated = Instantiate(prefab, poolParent.transform);
                 preInstantiated.SetActive(false);

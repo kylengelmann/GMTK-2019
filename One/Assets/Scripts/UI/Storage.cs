@@ -17,6 +17,11 @@ public class Storage : MonoBehaviour
         controllerModeChange(InputManager.CurrentControllerMode);
     }
 
+    private void OnDestroy()
+    {
+        InputManager.OnControllerModeChange -= controllerModeChange;
+    }
+
     void controllerModeChange(ControllerMode mode)
     {
         if(mode == ControllerMode.Controller)

@@ -33,6 +33,7 @@ public class InputManager : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
+        if(inputValues.Count > 0) return;
         for(int i = 0; i < (int)PlayerInputType.NumInputTypes; ++i)
         {
             inputValues.Add((PlayerInputType)i, 0f);

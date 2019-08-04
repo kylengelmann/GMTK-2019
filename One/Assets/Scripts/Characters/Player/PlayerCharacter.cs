@@ -9,6 +9,8 @@ public class PlayerCharacter : MonoBehaviour, IDamageable
     public PooledObjectType DefaultWeapon;
     public WeaponBase currentWeapon;
     public WeaponBase storedWeapon;
+    public AudioClip dead;
+    public AudioClip ow;
 
     public float health {get; private set;}
     public int numHits = 5;
@@ -18,7 +20,26 @@ public class PlayerCharacter : MonoBehaviour, IDamageable
     public void Damage(int amaount = 1)
     {
         health -= 1f/((float)numHits);
-        if(health <= 0f) GameManager.GameOver();
+        if(health <= 0f) {
+            GameObject splosion = ObjectPoolManager.GetPooledObject(PooledObjectType.DeathExplosion);
+            splosion.transform.position = transform.position;
+            splosion.SetActive(true);
+            Destroy(gameObject);
+
+            GameObject audio = ObjectPoolManager.GetPooledObject(PooledObjectType.AudioSource);
+            audio.transform.position = transform.position;
+            audio.SetActive(true);
+            audio.GetComponent<PooledAudioSource>().PlaySound(dead);
+
+            GameManager.GameOver();
+        }
+        else
+        {
+            GameObject audio = ObjectPoolManager.GetPooledObject(PooledObjectType.AudioSource);
+            audio.transform.position = transform.position;
+            audio.SetActive(true);
+            audio.GetComponent<PooledAudioSource>().PlaySound(ow);
+        }
     }
 
     public void Init()

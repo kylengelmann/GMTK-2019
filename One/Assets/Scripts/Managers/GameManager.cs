@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -47,10 +48,14 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
+
+        onMenu = !isInLevel;
+
         if(isInLevel)
         {
             StartCoroutine(ReadyGameplay());
         }
+        
     }
 
     IEnumerator ReadyGameplay()
@@ -80,8 +85,41 @@ public class GameManager : MonoBehaviour
 
     public static void GameOver()
     {
+        Instance.StartCoroutine(Instance.gameOver());
+    }
+
+    IEnumerator gameOver()
+    {
+        HasStartedLevel = false;
+        Fade fade = FindObjectOfType<Fade>();
+        fade.StartCoroutine(fade.DoFade(2f));
+        yield return new WaitForSeconds(3f);
+        SceneManager.LoadScene(0, LoadSceneMode.Single);
+        onMenu = true;
+    }
+
+    bool onMenu;
+
+    private void Update()
+    {
+        if(onMenu && (Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.JoystickButton0))) {
+            onMenu = false;
+            Instance.StartCoroutine(Instance.LoadGame());
+        }
+    }
+
+    IEnumerator LoadGame()
+    {
+        AsyncOperation load = SceneManager.LoadSceneAsync(1, LoadSceneMode.Single);
+
+        while(!load.isDone)
+        {
+            yield return null;
+        }
+        StartCoroutine(ReadyGameplay());
 
     }
 
+    
 }
 
