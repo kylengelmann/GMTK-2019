@@ -10,6 +10,7 @@ public enum PooledObjectType
     EnemyBullet,
     Pistol,
     Pop,
+    GunDum,
 }
 
 public class ObjectPoolManager : MonoBehaviour

@@ -77,4 +77,9 @@ public class TimeManager : MonoBehaviour
         return dt*timeInfos[channel].cumulativeTimeScale;
     }
 
+    public static float GetTimeScale(TimeChannel channel)
+    {
+        return timeInfos[channel].cumulativeTimeScale;
+    }
+
 }

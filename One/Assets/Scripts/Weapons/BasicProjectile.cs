@@ -2,10 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+public interface IDamageable
+{
+    void Damage();
+}
+
 public class BasicProjectile : MonoBehaviour
 {   
     [SerializeField]
     float speed = 10f;
+
+    
 
     Vector3 direction;
 
@@ -13,9 +20,21 @@ public class BasicProjectile : MonoBehaviour
 
     float timeAliveAbsolute = 0f;
 
+    PooledObjectHandler pooledObjectHandler;
+
+    private void Awake()
+    {
+        pooledObjectHandler = GetComponent<PooledObjectHandler>();
+    }
+
     protected virtual void HandleHit(Collider other)
     {
-
+        IDamageable damageable = other.GetComponent<IDamageable>();
+        if(damageable != null)
+        {
+            damageable.Damage();
+            pooledObjectHandler.ForceReturn();
+        }
     }
 
     private void OnTriggerEnter(Collider other)

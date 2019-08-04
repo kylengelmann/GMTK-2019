@@ -57,6 +57,11 @@ public class PooledObjectHandler : MonoBehaviour
         }
     }
 
+    public void ForceReturn()
+    {
+        ReturnToPool();
+    }
+
     void ReturnToPool()
     {
         if(hasReturned) return;

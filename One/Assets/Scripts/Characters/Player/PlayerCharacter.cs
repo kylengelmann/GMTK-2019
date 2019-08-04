@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerCharacter : MonoBehaviour
+public class PlayerCharacter : MonoBehaviour, IDamageable
 {
 
     public PooledObjectType DefaultWeapon;
@@ -11,10 +11,16 @@ public class PlayerCharacter : MonoBehaviour
 
     public float weaponDist = 1f;
 
+    public void Damage()
+    {
+        Debug.Log("OW");
+    }
+
     public void Init()
     {
         currentWeapon = ObjectPoolManager.GetPooledObject(DefaultWeapon).GetComponent<WeaponBase>();
         currentWeapon.transform.position = transform.position + Vector3.right*weaponDist;
+        currentWeapon.transform.parent = transform;
         currentWeapon.gameObject.SetActive(true);
     }
 
@@ -61,9 +67,11 @@ public class PlayerCharacter : MonoBehaviour
         }
         if(aimDir.sqrMagnitude > .04f && currentWeapon)
         {
+            transform.localScale = new Vector3(Mathf.Sign(aimDir.x), 1f, 1f);
             Vector3 aimDir3D = new Vector3(aimDir.x, 0f, aimDir.y);
-            currentWeapon.transform.rotation = Quaternion.AngleAxis(-90, Vector3.up) * Quaternion.LookRotation(aimDir3D);
+            currentWeapon.transform.rotation = Quaternion.AngleAxis(-90, Vector3.up) * Quaternion.LookRotation(aimDir3D * Mathf.Sign(aimDir.x));
             currentWeapon.transform.position = transform.position + aimDir3D*weaponDist;
+
         }
 
     }
