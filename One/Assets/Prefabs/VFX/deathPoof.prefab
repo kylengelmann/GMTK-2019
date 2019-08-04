@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 9078779940207290352}
   - component: {fileID: 9078779940207290354}
   - component: {fileID: 9078779940207290355}
-  - component: {fileID: 9078779940207290357}
   m_Layer: 0
   m_Name: Sprite
   m_TagString: Untagged
@@ -93,25 +92,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eda15172c8de18a4ca01227ced23f1b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!95 &9078779940207290357
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9078779940207290353}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: ee765a85697f37c41aa2b81c9708fdd7, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &9078779940981987174
 GameObject:
   m_ObjectHideFlags: 0
@@ -122,6 +102,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9078779940981987161}
   - component: {fileID: 9078779940981987160}
+  - component: {fileID: 1341895330}
   m_Layer: 0
   m_Name: deathPoof
   m_TagString: Untagged
@@ -160,3 +141,22 @@ MonoBehaviour:
   pooledObjectType: 6
   MaxLifetime: 0
   timeChannel: 0
+--- !u!95 &1341895330
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9078779940981987174}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ee765a85697f37c41aa2b81c9708fdd7, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
