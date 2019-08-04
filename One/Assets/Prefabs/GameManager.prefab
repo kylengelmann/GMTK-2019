@@ -49,6 +49,10 @@ MonoBehaviour:
   PlayerPrefab: {fileID: 5094028729839195023, guid: b428359f02fe32b47aa74cbe20f950f4,
     type: 3}
   isInLevel: 1
+  WeaponSprites:
+  - weapon: 2
+    sprite: {fileID: -3264594361583143485, guid: d999f63e3f6766747b1cf3611c89bd5e,
+      type: 3}
 --- !u!114 &669682338
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -108,5 +112,9 @@ MonoBehaviour:
     NumToPreinstantiate: 5
   - ObjectType: 4
     prefab: {fileID: 2982579716917068847, guid: afd9577eb057f5844a575bc187353017,
+      type: 3}
+    NumToPreinstantiate: 10
+  - ObjectType: 5
+    prefab: {fileID: 1788996153971640987, guid: 1ee301c1140a49849bb50d5b183b40ab,
       type: 3}
     NumToPreinstantiate: 10

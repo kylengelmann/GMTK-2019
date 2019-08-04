@@ -20,8 +20,8 @@ TagManager:
   - EnemieBullets
   - Bounce
   - EnemyHitbox
-  - 
-  - 
+  - Floor
+  - WeaponPickup
   - 
   - 
   - 

@@ -33,8 +33,8 @@ public class BasicProjectile : MonoBehaviour
         if(damageable != null)
         {
             damageable.Damage();
-            pooledObjectHandler.ForceReturn();
         }
+        pooledObjectHandler.ForceReturn();
     }
 
     private void OnTriggerEnter(Collider other)

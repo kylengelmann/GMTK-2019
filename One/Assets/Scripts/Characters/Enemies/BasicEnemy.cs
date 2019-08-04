@@ -30,7 +30,12 @@ public class BasicEnemy : MonoBehaviour, IDamageable
 
     protected virtual void Die()
     {
-
+        GameObject pickup = ObjectPoolManager.GetPooledObject(PooledObjectType.WeaponPickup);
+        pickup.transform.position = transform.position;
+        pickup.SetActive(true);
+        WeaponPickup weaponPickup = pickup.GetComponent<WeaponPickup>();
+        weaponPickup.weaponType = PooledObjectType.Pistol;
+        weaponPickup.Init();
         ObjectPoolManager.ReturnPooledObject(enemyType, gameObject);
     }
     
@@ -46,6 +51,8 @@ public class BasicEnemy : MonoBehaviour, IDamageable
 
         agent.speed = speed*timeScale;
         agent.SetDestination(targetPos);
+
+        transform.localScale = new Vector3(Mathf.Sign(targetPos.x - transform.position.x), 1f, 1f);
     }
 
 

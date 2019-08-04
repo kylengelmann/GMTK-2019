@@ -1471,13 +1471,13 @@ GameObject:
   - component: {fileID: 1387703808}
   - component: {fileID: 1387703807}
   - component: {fileID: 1387703806}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!65 &1387703806
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1498,7 +1498,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1387703805}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -2737,7 +2737,7 @@ PrefabInstance:
     - target: {fileID: 3188305970658099737, guid: afd9577eb057f5844a575bc187353017,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.96
+      value: -5.98
       objectReference: {fileID: 0}
     - target: {fileID: 3188305970658099737, guid: afd9577eb057f5844a575bc187353017,
         type: 3}

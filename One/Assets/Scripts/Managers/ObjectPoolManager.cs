@@ -11,6 +11,7 @@ public enum PooledObjectType
     Pistol,
     Pop,
     GunDum,
+    WeaponPickup,
 }
 
 public class ObjectPoolManager : MonoBehaviour
@@ -98,9 +99,8 @@ public class ObjectPoolManager : MonoBehaviour
 
     public static void ReturnPooledObject(PooledObjectType type, GameObject returningObject)
     {
-
-        returningObject.SetActive(false);
         returningObject.transform.parent = instance.poolParent.transform;
+        returningObject.SetActive(false);
         objectPools[type].Add(returningObject);
     }
 

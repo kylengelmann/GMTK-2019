@@ -13,6 +13,23 @@ public class GameManager : MonoBehaviour
 
     public bool isInLevel = true;
 
+    [System.Serializable]
+    struct weaponSpriteInfo
+    {
+        public PooledObjectType weapon;
+        public Sprite sprite;
+    }
+    [SerializeField]
+    weaponSpriteInfo[] WeaponSprites;
+
+    static Dictionary<PooledObjectType, Sprite> weaponSprites = new Dictionary<PooledObjectType, Sprite>();
+
+    public static Sprite GetWeaponSprite(PooledObjectType weapon)
+    {
+        return weaponSprites[weapon];
+    }
+
+
     private void Awake()
     {
         if(Instance) {
@@ -21,6 +38,11 @@ public class GameManager : MonoBehaviour
         }
         Instance = this;
         DontDestroyOnLoad(gameObject);
+
+        foreach(weaponSpriteInfo weapon in WeaponSprites)
+        {
+            weaponSprites.Add(weapon.weapon, weapon.sprite);
+        }
     }
 
     private void Start()

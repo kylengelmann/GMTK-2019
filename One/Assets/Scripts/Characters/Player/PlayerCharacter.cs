@@ -18,10 +18,7 @@ public class PlayerCharacter : MonoBehaviour, IDamageable
 
     public void Init()
     {
-        currentWeapon = ObjectPoolManager.GetPooledObject(DefaultWeapon).GetComponent<WeaponBase>();
-        currentWeapon.transform.position = transform.position + Vector3.right*weaponDist;
-        currentWeapon.transform.parent = transform;
-        currentWeapon.gameObject.SetActive(true);
+        PickupWeapon(DefaultWeapon);
     }
 
     PlayerMovementComponent movementComponent;
@@ -61,18 +58,31 @@ public class PlayerCharacter : MonoBehaviour, IDamageable
         if(!GameManager.HasStartedLevel) return;
         float dt = TimeManager.GetTimeDelta(TimeChannel.Player);
         movementComponent.UpdatePosition(moveInput, dt);
-        if(aimDir.sqrMagnitude < .04f)
+        if(aimDir.sqrMagnitude < .04f || !currentWeapon)
         {
             aimDir = moveInput;
         }
-        if(aimDir.sqrMagnitude > .04f && currentWeapon)
+        if(aimDir.sqrMagnitude > .04f)
         {
             transform.localScale = new Vector3(Mathf.Sign(aimDir.x), 1f, 1f);
-            Vector3 aimDir3D = new Vector3(aimDir.x, 0f, aimDir.y);
-            currentWeapon.transform.rotation = Quaternion.AngleAxis(-90, Vector3.up) * Quaternion.LookRotation(aimDir3D * Mathf.Sign(aimDir.x));
-            currentWeapon.transform.position = transform.position + aimDir3D*weaponDist;
-
+            if(currentWeapon) {
+                Vector3 aimDir3D = new Vector3(aimDir.x, 0f, aimDir.y);
+                currentWeapon.transform.rotation = Quaternion.AngleAxis(-90, Vector3.up) * Quaternion.LookRotation(aimDir3D * Mathf.Sign(aimDir.x));
+                currentWeapon.transform.position = transform.position + aimDir3D*weaponDist;
+            }
         }
+    }
 
+    public bool PickupWeapon(PooledObjectType weaponType)
+    {
+        bool pickedUp = !currentWeapon;
+        if(pickedUp)
+        {
+            currentWeapon = ObjectPoolManager.GetPooledObject(weaponType).GetComponent<WeaponBase>();
+            currentWeapon.transform.position = transform.position + Vector3.right * weaponDist;
+            currentWeapon.transform.parent = transform;
+            currentWeapon.gameObject.SetActive(true);
+        }
+        return pickedUp;
     }
 }

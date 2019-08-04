@@ -6,7 +6,6 @@ using UnityEngine.Events;
 public abstract class WeaponBase : MonoBehaviour
 {
     public PooledObjectType pooledObjectType;
-    bool hasFired;
 
 
     protected void Break()
@@ -24,8 +23,7 @@ public abstract class WeaponBase : MonoBehaviour
 
     public void Shoot()
     {
-        if(!hasFired) DoShoot();
-        hasFired = true;
+        DoShoot();
     }
 
     protected abstract void DoShoot();
