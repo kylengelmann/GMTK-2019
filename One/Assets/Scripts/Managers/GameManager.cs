@@ -11,6 +11,8 @@ public class GameManager : MonoBehaviour
     public static bool HasStartedLevel {get; private set;}
     public static Camera mainCamera;
 
+    public bool isInLevel = true;
+
     private void Awake()
     {
         if(Instance) {
@@ -19,11 +21,19 @@ public class GameManager : MonoBehaviour
         }
         Instance = this;
         DontDestroyOnLoad(gameObject);
-        Init();
     }
 
-    private void Init()
+    private void Start()
     {
+        if(isInLevel)
+        {
+            StartCoroutine(ReadyGameplay());
+        }
+    }
+
+    IEnumerator ReadyGameplay()
+    {
+        yield return ObjectPoolManager.PreinstantiateObjects();
         StartLevel();
     }
 

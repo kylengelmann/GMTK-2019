@@ -21,7 +21,8 @@ public class CameraController : MonoBehaviour
 
     private void LateUpdate()
     {
-       //transform.position = Vector3.MoveTowards(transform.position, GameManager.Player.transform.position + Vector3.up * height, 5f*Time.deltaTime);
-       transform.position = Vector3.Lerp(transform.position, GameManager.Player.transform.position + Vector3.up * height, stiffness * TimeManager.GetTimeDelta(TimeChannel.Default));
+        if(!GameManager.HasStartedLevel) return;
+        //transform.position = Vector3.MoveTowards(transform.position, GameManager.Player.transform.position + Vector3.up * height, 5f*Time.deltaTime);
+        transform.position = Vector3.Lerp(transform.position, GameManager.Player.transform.position + Vector3.up * height, stiffness * TimeManager.GetTimeDelta(TimeChannel.Absolute));
     }
 }

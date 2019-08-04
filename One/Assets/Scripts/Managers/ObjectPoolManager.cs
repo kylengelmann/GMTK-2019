@@ -24,19 +24,28 @@ public class ObjectPoolManager : MonoBehaviour
     [SerializeField]
     PooledObjectInfo[] PooledObjects;
 
-    Dictionary<PooledObjectType, GameObject> prefabs = new Dictionary<PooledObjectType, GameObject>();
-    Dictionary<PooledObjectType, List<GameObject>> objectPools = new Dictionary<PooledObjectType, List<GameObject>>();
+    static Dictionary<PooledObjectType, GameObject> prefabs = new Dictionary<PooledObjectType, GameObject>();
+    static Dictionary<PooledObjectType, List<GameObject>> objectPools = new Dictionary<PooledObjectType, List<GameObject>>();
+    static Dictionary<PooledObjectType, int> numPreinstantiate = new Dictionary<PooledObjectType, int>();
+
+    static ObjectPoolManager instance;
 
     private void Awake()
     {
+        if(instance)
+        {
+           return;
+        }
         foreach(PooledObjectInfo info in PooledObjects)
         {
             prefabs.Add(info.ObjectType, info.prefab);
             objectPools.Add(info.ObjectType, new List<GameObject>());
+            numPreinstantiate.Add(info.ObjectType, info.NumToPreinstantiate);
         }
+        instance = this;
     }
 
-    public void ClearObjectPools()
+    public static void ClearObjectPools()
     {
         foreach (PooledObjectType type in objectPools.Keys)
         {
@@ -44,17 +53,48 @@ public class ObjectPoolManager : MonoBehaviour
         }
     }
 
-    public IEnumerator PreinstantiateObjectsRoutine()
+    public static Coroutine PreinstantiateObjects()
     {
-        foreach(PooledObjectInfo info in PooledObjects)
+        return instance.StartCoroutine(instance.PreinstantiateObjectsRoutine());
+    }
+
+    IEnumerator PreinstantiateObjectsRoutine()
+    {
+        foreach(PooledObjectType type in numPreinstantiate.Keys)
         {
-            for(int i = 0; i < info.NumToPreinstantiate; ++i) {
-                GameObject preInstantiated = Instantiate(info.prefab, transform);
+            GameObject prefab = prefabs[type];
+            for(int i = 0; i < numPreinstantiate[type]; ++i) {
+                GameObject preInstantiated = Instantiate(prefab, instance.transform);
                 preInstantiated.SetActive(false);
-                objectPools[info.ObjectType].Add(preInstantiated);
+                objectPools[type].Add(preInstantiated);
             }
             yield return null;
         }
+    }
+
+    public static GameObject GetPooledObject(PooledObjectType type)
+    {
+        List<GameObject> pool = objectPools[type];
+        GameObject pooledObject = null;
+        if (pool.Count > 0)
+        {
+            pooledObject = pool[0];
+            pool.RemoveAt(0);
+            return pooledObject;
+        }
+
+        pooledObject = Instantiate(prefabs[type]);
+        pooledObject.SetActive(false);
+
+        return pooledObject;
+    }
+
+    public static void ReturnPooledObject(PooledObjectType type, GameObject returningObject)
+    {
+
+        returningObject.SetActive(false);
+        returningObject.transform.SetParent(instance.transform);
+        objectPools[type].Add(returningObject);
     }
 
 

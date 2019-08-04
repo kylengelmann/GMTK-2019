@@ -9,9 +9,12 @@ public class PlayerCharacter : MonoBehaviour
     WeaponBase currentWeapon;
     WeaponBase storedWeapon;
 
+    public float weaponDist = 1f;
+
     public void Init()
     {
-        
+        currentWeapon = Instantiate(DefaultWeaponPrefab, transform);
+        currentWeapon.transform.position = transform.position + Vector3.right*weaponDist;
     }
 
     PlayerMovementComponent movementComponent;
@@ -37,7 +40,12 @@ public class PlayerCharacter : MonoBehaviour
 
     public void Shoot()
     {
-
+        if(currentWeapon)
+        {
+            currentWeapon.Shoot();
+            currentWeapon.transform.parent = null;
+            currentWeapon = null;
+        }
     }
 
     // Update is called once per frame
@@ -50,5 +58,12 @@ public class PlayerCharacter : MonoBehaviour
         {
             aimDir = moveInput;
         }
+        if(aimDir.sqrMagnitude > .04f && currentWeapon)
+        {
+            Vector3 aimDir3D = new Vector3(aimDir.x, 0f, aimDir.y);
+            currentWeapon.transform.rotation = Quaternion.AngleAxis(-90, Vector3.up) * Quaternion.LookRotation(aimDir3D);
+            currentWeapon.transform.position = transform.position + aimDir3D*weaponDist;
+        }
+
     }
 }

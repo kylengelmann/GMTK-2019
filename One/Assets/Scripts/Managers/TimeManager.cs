@@ -5,9 +5,9 @@ using UnityEngine;
 
 public enum TimeChannel
 {
-    Default,
+    Absolute,
     Player,
-    Enemy,
+    World,
 }
 
 

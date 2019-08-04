@@ -33,7 +33,7 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    public bool GetControleTypeEnabled(PlayerControlType type)
+    public bool GetControlTypeEnabled(PlayerControlType type)
     {
         return (disabledControlTypes & type) == 0;
     }
@@ -42,20 +42,24 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         if(!GameManager.HasStartedLevel) return;
-        if(GetControleTypeEnabled(PlayerControlType.Move)) {
+        if(GetControlTypeEnabled(PlayerControlType.Move)) {
             Character.SetMoveInput(new Vector2(InputManager.GetAxis(PlayerInputType.MoveX), InputManager.GetAxis(PlayerInputType.MoveY)));
         }
         else
         {
             Character.SetMoveInput(Vector2.zero);
         }
-        if(GetControleTypeEnabled(PlayerControlType.Aim))
+        if(GetControlTypeEnabled(PlayerControlType.Aim))
         {
             Character.SetAimDirection(new Vector2(InputManager.GetAxis(PlayerInputType.AimX), InputManager.GetAxis(PlayerInputType.AimY)));
         }
         else
         {
             Character.SetAimDirection(Vector2.zero);
+        }
+        if(GetControlTypeEnabled(PlayerControlType.Shoot))
+        {
+            if(InputManager.GetButtonDown(PlayerInputType.Shoot)) Character.Shoot();
         }
     }
 }
