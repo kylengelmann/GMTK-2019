@@ -1,130 +1,124 @@
 fileFormatVersion: 2
-guid: d0e9641445598cd4185ea6b471b9df14
+guid: d999f63e3f6766747b1cf3611c89bd5e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8092295105046505211
-    second: explosion_0
+      213: -2648546896673421054
+    second: weaponsAndParticles 1_0
   - first:
-      213: -5243772346084840235
-    second: explosion_1
+      213: 3241268488214704157
+    second: weaponsAndParticles 1_1
   - first:
-      213: -4009157606203222040
-    second: explosion_2
+      213: 5225757152932697959
+    second: weaponsAndParticles 1_2
   - first:
-      213: 3730887761424324059
-    second: explosion_3
+      213: -6367717394137300216
+    second: weaponsAndParticles 1_3
   - first:
-      213: -4927540249515241657
-    second: explosion_4
+      213: 3588727988832179775
+    second: weaponsAndParticles 1_4
   - first:
-      213: 5684552838703836615
-    second: explosion_5
+      213: 8406060155438248596
+    second: weaponsAndParticles 1_5
   - first:
-      213: -1000500801407918923
-    second: explosion_6
+      213: 3479585877670237817
+    second: weaponsAndParticles 1_6
   - first:
-      213: -3556220708966662747
-    second: explosion_7
+      213: -5668837506362333071
+    second: weaponsAndParticles 1_7
   - first:
-      213: 950242065716622878
-    second: explosion_8
+      213: -5765288086676571687
+    second: weaponsAndParticles 1_8
   - first:
-      213: 1871906383385562927
-    second: explosion_9
+      213: -1373524751516219834
+    second: weaponsAndParticles 1_9
   - first:
-      213: -5371098934410574880
-    second: explosion_10
+      213: -4431015924137973677
+    second: weaponsAndParticles 1_10
   - first:
-      213: -1551774312519300948
-    second: explosion_11
+      213: -4324626203373479360
+    second: weaponsAndParticles 1_11
   - first:
-      213: 8761117149865828687
-    second: explosion_12
+      213: -3264594361583143485
+    second: weaponsAndParticles 1_12
   - first:
-      213: 2349602722129606322
-    second: explosion_13
+      213: 380068733179329311
+    second: weaponsAndParticles 1_13
   - first:
-      213: 7773491377804077996
-    second: explosion_14
+      213: -7915914705147017110
+    second: weaponsAndParticles 1_14
   - first:
-      213: 1467323325375670837
-    second: explosion_15
+      213: -9145457597948558844
+    second: weaponsAndParticles 1_15
   - first:
-      213: 4542189021846940948
-    second: explosion_16
+      213: -5617198082420394757
+    second: weaponsAndParticles 1_16
   - first:
-      213: -8590846737339631838
-    second: explosion_17
+      213: -7349716957302229550
+    second: weaponsAndParticles 1_17
   - first:
-      213: 3996794502770762282
-    second: explosion_18
+      213: -1114628676437767052
+    second: weaponsAndParticles 1_18
   - first:
-      213: -5328293131749856865
-    second: explosion_19
+      213: -623193448796228829
+    second: weaponsAndParticles 1_19
   - first:
-      213: 8757869890930774319
-    second: explosion_20
+      213: 83437615437105654
+    second: weaponsAndParticles 1_20
   - first:
-      213: 5583760979089145045
-    second: explosion_21
+      213: -2738846657440878178
+    second: weaponsAndParticles 1_21
   - first:
-      213: -6611490010577821925
-    second: explosion_22
+      213: 7892355274503322910
+    second: weaponsAndParticles 1_22
   - first:
-      213: 3700629028062089341
-    second: explosion_23
+      213: 7835105400540163076
+    second: weaponsAndParticles 1_23
   - first:
-      213: 4321349126066106873
-    second: explosion_24
+      213: -398687826296737430
+    second: weaponsAndParticles 1_24
   - first:
-      213: 8258980228945939678
-    second: explosion_25
+      213: -3452621555782779253
+    second: weaponsAndParticles 1_25
   - first:
-      213: 5457886006356025943
-    second: explosion_26
+      213: -6725144364536565431
+    second: weaponsAndParticles 1_26
   - first:
-      213: 835678513910153455
-    second: explosion_27
+      213: -4822120791421048008
+    second: weaponsAndParticles 1_27
   - first:
-      213: -2014795597190648048
-    second: explosion_28
+      213: -7694173756007884080
+    second: weaponsAndParticles 1_28
   - first:
-      213: 3366174251882233255
-    second: explosion_29
+      213: -7738384027492657202
+    second: weaponsAndParticles 1_29
   - first:
-      213: 2379553482693119949
-    second: explosion_30
+      213: -2508509224705362823
+    second: weaponsAndParticles 1_30
   - first:
-      213: 9038251253104822853
-    second: explosion_31
+      213: 5701642471139238439
+    second: weaponsAndParticles 1_31
   - first:
-      213: 410509259012059780
-    second: explosion_32
+      213: -7404772548578933162
+    second: weaponsAndParticles 1_32
   - first:
-      213: 4671616438079581732
-    second: explosion_33
+      213: -1069484449230789656
+    second: weaponsAndParticles 1_33
   - first:
-      213: 6384443681546893427
-    second: explosion_34
+      213: -4779165614656450861
+    second: weaponsAndParticles 1_34
   - first:
-      213: 5630384481582626400
-    second: explosion_35
+      213: -8777646178489074114
+    second: weaponsAndParticles 1_35
   - first:
-      213: 1021574148486288606
-    second: explosion_36
+      213: 750763432230841944
+    second: weaponsAndParticles 1_36
   - first:
-      213: 5149285729980092290
-    second: explosion_37
+      213: -4175513097832427122
+    second: weaponsAndParticles 1_37
   - first:
-      213: -733792046294446316
-    second: explosion_38
-  - first:
-      213: 5870585230871215014
-    second: explosion_39
-  - first:
-      213: -8614229376044812618
-    second: explosion_40
+      213: 6884999358933623298
+    second: weaponsAndParticles 1_38
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -218,13 +212,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: explosion_0
+      name: weaponsAndParticles 1_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 320
-        width: 64
-        height: 64
+        y: 80
+        width: 16
+        height: 16
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -232,20 +226,83 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5f6fa4aa9c25aee4d925040f7199bfe6
-      internalID: -8092295105046505211
+      spriteID: 2bbda738ee2182646831c2ae9241b3eb
+      internalID: -2648546896673421054
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: explosion_1
+      name: weaponsAndParticles 1_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 80
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f041a4e9c6b1e5b4e831a9cf16ed2553
+      internalID: 3241268488214704157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weaponsAndParticles 1_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 80
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 091f77cee3676ee4e948c91a66b2056f
+      internalID: 5225757152932697959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weaponsAndParticles 1_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 80
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3168b4250696a274abd498a8465c2123
+      internalID: -6367717394137300216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weaponsAndParticles 1_4
       rect:
         serializedVersion: 2
         x: 64
-        y: 320
-        width: 64
-        height: 64
+        y: 80
+        width: 16
+        height: 16
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -253,20 +310,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a436213efab9bb540a907760770be31d
-      internalID: -5243772346084840235
+      spriteID: 944a8f2c9b3638e47aa775eba196dc2a
+      internalID: 3588727988832179775
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: explosion_2
+      name: weaponsAndParticles 1_5
       rect:
         serializedVersion: 2
-        x: 128
-        y: 320
-        width: 64
-        height: 64
+        x: 80
+        y: 80
+        width: 16
+        height: 16
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -274,20 +331,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a73cbbf4e8a282a448ddcd0830330780
-      internalID: -4009157606203222040
+      spriteID: 38106402534b1bd4884304864944a296
+      internalID: 8406060155438248596
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: explosion_3
+      name: weaponsAndParticles 1_6
       rect:
         serializedVersion: 2
-        x: 192
-        y: 320
-        width: 64
-        height: 64
+        x: 96
+        y: 80
+        width: 16
+        height: 16
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -295,20 +352,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9cf6a4c097f93b14ca3de66da648269d
-      internalID: 3730887761424324059
+      spriteID: 59b75dad7dd71a7469ad3a1f7ac56a43
+      internalID: 3479585877670237817
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: explosion_4
+      name: weaponsAndParticles 1_7
       rect:
         serializedVersion: 2
-        x: 256
-        y: 320
-        width: 64
-        height: 64
+        x: 112
+        y: 80
+        width: 16
+        height: 16
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -316,587 +373,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2232f4dd2b215034396f01c0269c5931
-      internalID: -4927540249515241657
+      spriteID: a591e975d2a0f0147951eb88080d5f0b
+      internalID: -5668837506362333071
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: explosion_5
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 320
-        width: 64
-        height: 64
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fb7b4a5914ff7d64d9117f466ccc1640
-      internalID: 5684552838703836615
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: explosion_6
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 320
-        width: 64
-        height: 64
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d8f416ed72bf8a243b87d01b6af7aca0
-      internalID: -1000500801407918923
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: explosion_7
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 320
-        width: 64
-        height: 64
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0e35ad868a96305478dc48c44adf77eb
-      internalID: -3556220708966662747
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: explosion_8
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 256
-        width: 64
-        height: 64
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e7dc948b01216f74cb98be50a03e01a5
-      internalID: 950242065716622878
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: explosion_9
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 256
-        width: 64
-        height: 64
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 393046fdee1cef14d9d8147d140de747
-      internalID: 1871906383385562927
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: explosion_10
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 256
-        width: 64
-        height: 64
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 45dc4f96ae9df894ab5a233e70e527c0
-      internalID: -5371098934410574880
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: explosion_11
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 256
-        width: 64
-        height: 64
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5a36c8f489e4124438c9d89b54a51913
-      internalID: -1551774312519300948
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: explosion_12
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 256
-        width: 64
-        height: 64
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bcfec290cc98ae64f9508ca7a537b3b8
-      internalID: 8761117149865828687
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: explosion_13
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 256
-        width: 64
-        height: 64
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 866fad375851c1943a01434a0e62b659
-      internalID: 2349602722129606322
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: explosion_14
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 256
-        width: 64
-        height: 64
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5f747eb44da4de84b8df63e2067740d1
-      internalID: 7773491377804077996
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: explosion_15
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 256
-        width: 64
-        height: 64
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d744f968fa722234c805570a98a3c3f6
-      internalID: 1467323325375670837
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: explosion_16
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 192
-        width: 64
-        height: 64
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 69916a4efc3fff24da77c266f27df63c
-      internalID: 4542189021846940948
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: explosion_17
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 192
-        width: 64
-        height: 64
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 275b4080b66433847b0435d6411b7425
-      internalID: -8590846737339631838
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: explosion_18
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 192
-        width: 64
-        height: 64
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 59602c2ccb506a64cb739fda90ef3f76
-      internalID: 3996794502770762282
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: explosion_19
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 192
-        width: 64
-        height: 64
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 007b03660d5040f4593742042f33f39e
-      internalID: -5328293131749856865
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: explosion_20
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 192
-        width: 64
-        height: 64
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 03e1765f0a9e47e4389ef3902961d1bb
-      internalID: 8757869890930774319
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: explosion_21
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 192
-        width: 64
-        height: 64
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 098af0479a57f23459be4b6b81680e70
-      internalID: 5583760979089145045
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: explosion_22
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 192
-        width: 64
-        height: 64
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c068d8ba439e1cb4ba919cb6f4fa963f
-      internalID: -6611490010577821925
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: explosion_23
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 192
-        width: 64
-        height: 64
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 62541b58450a49f47b7520b0862f5476
-      internalID: 3700629028062089341
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: explosion_24
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 128
-        width: 64
-        height: 64
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3b126d517fba7a44e8844e2f82094c89
-      internalID: 4321349126066106873
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: explosion_25
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 128
-        width: 64
-        height: 64
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4f12fb3f54b29ce42867ea4ff7c440ae
-      internalID: 8258980228945939678
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: explosion_26
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 128
-        width: 64
-        height: 64
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d0fba0b44e393434fbc894b56a4bc8b7
-      internalID: 5457886006356025943
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: explosion_27
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 128
-        width: 64
-        height: 64
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f56239d7f5a43864cac4204e6e94eed6
-      internalID: 835678513910153455
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: explosion_28
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 128
-        width: 64
-        height: 64
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2b05af824562744408b7623dc535bf80
-      internalID: -2014795597190648048
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: explosion_29
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 128
-        width: 64
-        height: 64
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 887de6a4d4d79a54c93ae4f8b3a9f641
-      internalID: 3366174251882233255
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: explosion_30
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 128
-        width: 64
-        height: 64
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 51c879cbbee69184da0c686c3f016f57
-      internalID: 2379553482693119949
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: explosion_31
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 128
-        width: 64
-        height: 64
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 044fd310e1a61964c89b173ab3d36064
-      internalID: 9038251253104822853
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: explosion_32
+      name: weaponsAndParticles 1_8
       rect:
         serializedVersion: 2
         x: 0
         y: 64
-        width: 64
-        height: 64
+        width: 16
+        height: 16
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -904,20 +394,83 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f36753b00d22ea24f801db0e793fff32
-      internalID: 410509259012059780
+      spriteID: c403f46995eef3c479942c8c7289a2ee
+      internalID: -5765288086676571687
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: explosion_33
+      name: weaponsAndParticles 1_9
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 64
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4efe874d0928bfe4bb59629b283ef5e6
+      internalID: -1373524751516219834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weaponsAndParticles 1_10
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 821ccd437a1d60e4c995595fc3abfb6c
+      internalID: -4431015924137973677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weaponsAndParticles 1_11
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 64
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fad2cb239b456cd49bac66cf6d30390c
+      internalID: -4324626203373479360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weaponsAndParticles 1_12
       rect:
         serializedVersion: 2
         x: 64
         y: 64
-        width: 64
-        height: 64
+        width: 16
+        height: 16
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -925,20 +478,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dffc2e1207294ee4b8d6a17c1995dc5c
-      internalID: 4671616438079581732
+      spriteID: 466274ded0e878b4f923aa5faa21754d
+      internalID: -3264594361583143485
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: explosion_34
+      name: weaponsAndParticles 1_13
       rect:
         serializedVersion: 2
-        x: 128
+        x: 80
         y: 64
-        width: 64
-        height: 64
+        width: 16
+        height: 16
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -946,20 +499,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 003ede43deabcb54188db737ba8a84e8
-      internalID: 6384443681546893427
+      spriteID: d176938b630fca04f9f37848f468f7fe
+      internalID: 380068733179329311
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: explosion_35
+      name: weaponsAndParticles 1_14
       rect:
         serializedVersion: 2
-        x: 192
+        x: 96
         y: 64
-        width: 64
-        height: 64
+        width: 16
+        height: 16
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -967,20 +520,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 290f66ee0e6765441adc9e504d72fcf4
-      internalID: 5630384481582626400
+      spriteID: eddd17da997fae44a977779c40bfc446
+      internalID: -7915914705147017110
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: explosion_36
+      name: weaponsAndParticles 1_15
       rect:
         serializedVersion: 2
-        x: 256
+        x: 112
         y: 64
-        width: 64
-        height: 64
+        width: 16
+        height: 16
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -988,20 +541,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9880ccd8709609a429e780d10e363e37
-      internalID: 1021574148486288606
+      spriteID: c4b8c98f617cb994c922bdc1a18735a3
+      internalID: -9145457597948558844
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: explosion_37
+      name: weaponsAndParticles 1_16
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 64
-        height: 64
+        y: 48
+        width: 16
+        height: 16
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1009,20 +562,83 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: debbf09e61edb1b4b9d4b4f151de145f
-      internalID: 5149285729980092290
+      spriteID: a50978646094b43438554f1d706ce524
+      internalID: -5617198082420394757
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: explosion_38
+      name: weaponsAndParticles 1_17
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 48
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a26b2e1d281410748986fbcf23028b1d
+      internalID: -7349716957302229550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weaponsAndParticles 1_18
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 48
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7b4ac5a1303ec144ba451dd2cf36937
+      internalID: -1114628676437767052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weaponsAndParticles 1_19
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17e255b67dd789e4a8569e2518906bda
+      internalID: -623193448796228829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weaponsAndParticles 1_20
       rect:
         serializedVersion: 2
         x: 64
-        y: 0
-        width: 64
-        height: 64
+        y: 48
+        width: 16
+        height: 16
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1030,20 +646,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 756baa60580c1114085df4449b181360
-      internalID: -733792046294446316
+      spriteID: b345a3b8d9ebbfb4eb2f614096bbd56f
+      internalID: 83437615437105654
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: explosion_39
+      name: weaponsAndParticles 1_21
       rect:
         serializedVersion: 2
-        x: 128
-        y: 0
-        width: 64
-        height: 64
+        x: 80
+        y: 48
+        width: 16
+        height: 16
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1051,20 +667,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8df6b82b701b5b84eba8fb814a0913f6
-      internalID: 5870585230871215014
+      spriteID: 68693a10a7a589e42b650a57f12e553d
+      internalID: -2738846657440878178
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: explosion_40
+      name: weaponsAndParticles 1_22
       rect:
         serializedVersion: 2
-        x: 192
-        y: 0
-        width: 64
-        height: 64
+        x: 96
+        y: 48
+        width: 16
+        height: 16
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1072,8 +688,344 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 97964afb140ae0346801bafd112db21b
-      internalID: -8614229376044812618
+      spriteID: 4ad4f9371311c6640a1c0a26d108dfe2
+      internalID: 7892355274503322910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weaponsAndParticles 1_23
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 48
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f704b3d55e2afdf4cae15205c050778d
+      internalID: 7835105400540163076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weaponsAndParticles 1_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad9970f07a458094a8d6da5d558a468b
+      internalID: -398687826296737430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weaponsAndParticles 1_25
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 32
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 793100368db175547b85bab7c973569b
+      internalID: -3452621555782779253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weaponsAndParticles 1_26
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d0fcdb9095a2d94d821e3c1e24842ad
+      internalID: -6725144364536565431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weaponsAndParticles 1_27
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 32
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b80988d6bcad00945b5270f6f14be20f
+      internalID: -4822120791421048008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weaponsAndParticles 1_28
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d2a52f46dff19042bf651df6e32a518
+      internalID: -7694173756007884080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weaponsAndParticles 1_29
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 32
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79ac973948b6c514d9107fc2f819d1a9
+      internalID: -7738384027492657202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weaponsAndParticles 1_30
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 892a0aedcbf47ba4fb4431791daa2d6c
+      internalID: -2508509224705362823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weaponsAndParticles 1_31
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 32
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fd5bfda74eccc5429ccb723686ca886
+      internalID: 5701642471139238439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weaponsAndParticles 1_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bfdca66d26d7e94b807af379c7dbed4
+      internalID: -7404772548578933162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weaponsAndParticles 1_33
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19fe74a090b1f0c4394a9a4d51370ea6
+      internalID: -1069484449230789656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weaponsAndParticles 1_34
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 16
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd448bca24e444047a0d5a4f6857d2ca
+      internalID: -4779165614656450861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weaponsAndParticles 1_35
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 16
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83e3e909b502bf444927306f6579043c
+      internalID: -8777646178489074114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weaponsAndParticles 1_36
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 16
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 866dfc224483a5e4da9409ab69383750
+      internalID: 750763432230841944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weaponsAndParticles 1_37
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 16
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3fb8886e9a3f15409eb284d45067ed7
+      internalID: -4175513097832427122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weaponsAndParticles 1_38
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 16
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dd248d116914b54e86c2964c30cf731
+      internalID: 6884999358933623298
       vertices: []
       indices: 
       edges: []
@@ -1081,7 +1033,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: df1dfe004ad4dc343b39f681e82497b7
+    spriteID: d82d1cbc18346ad4891cfe9f760dcbfa
     internalID: 0
     vertices: []
     indices: 
