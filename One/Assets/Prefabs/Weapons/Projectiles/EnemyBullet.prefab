@@ -48,7 +48,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   returnAction: 1
-  pooledObjectType: 0
+  pooledObjectType: 1
   MaxLifetime: 15
   timeChannel: 2
 --- !u!114 &150583419607014996
