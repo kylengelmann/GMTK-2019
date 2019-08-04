@@ -60,6 +60,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   uses: -1
   weaponType: 2
+  sprite: {fileID: 8692012310328089684}
+  respawnTime: 5
 --- !u!1 &8692012310328089683
 GameObject:
   m_ObjectHideFlags: 0
