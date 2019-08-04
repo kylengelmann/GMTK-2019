@@ -11,8 +11,8 @@ public class BroadcastDamage : MonoBehaviour, IDamageable
         parent = transform.parent.GetComponent<IDamageable>();
     }
 
-    public void Damage()
+    public void Damage(int amount = 1)
     {
-        parent.Damage();
+        parent.Damage(amount);
     }
 }

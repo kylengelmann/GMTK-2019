@@ -81,7 +81,7 @@ public class InputManager : MonoBehaviour
             CurrentControllerMode = ControllerMode.Controller;
         }
 
-        float Switch = Input.GetKey(KeyCode.Joystick8Button5) ? 1f : -1f;
+        float Switch = Input.GetKey(KeyCode.JoystickButton5) ? 1f : -1f;
         if(Switch > 0f)
         {
             CurrentControllerMode = ControllerMode.Controller;

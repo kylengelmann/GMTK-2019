@@ -19,7 +19,7 @@ public class Rocket : BasicProjectile
             IDamageable damageable = hit.GetComponent<IDamageable>();
             if(damageable != null)
             {
-                damageable.Damage();
+                damageable.Damage(2);
             }
         }
         GameObject boom = ObjectPoolManager.GetPooledObject(explosion);

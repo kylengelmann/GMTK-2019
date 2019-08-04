@@ -10,15 +10,20 @@ public class PlayerCharacter : MonoBehaviour, IDamageable
     public WeaponBase currentWeapon;
     public WeaponBase storedWeapon;
 
+    public float health {get; private set;}
+    public int numHits = 5;
+
     public float weaponDist = 1f;
 
-    public void Damage()
+    public void Damage(int amaount = 1)
     {
-        Debug.Log("OW");
+        health -= 1f/((float)numHits);
+        if(health <= 0f) GameManager.GameOver();
     }
 
     public void Init()
     {
+        health = 1f;
         PickupWeapon(DefaultWeapon);
     }
 
