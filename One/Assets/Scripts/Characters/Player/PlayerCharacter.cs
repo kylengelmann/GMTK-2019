@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerCharacter : MonoBehaviour, IDamageable
 {
 
+    public GameObject Reticle;
     public PooledObjectType DefaultWeapon;
     WeaponBase currentWeapon;
     WeaponBase storedWeapon;
@@ -49,6 +50,7 @@ public class PlayerCharacter : MonoBehaviour, IDamageable
             currentWeapon.Shoot();
             currentWeapon.transform.parent = null;
             currentWeapon = null;
+            Reticle.SetActive(false);
         }
     }
 
@@ -66,11 +68,16 @@ public class PlayerCharacter : MonoBehaviour, IDamageable
         {
             transform.localScale = new Vector3(Mathf.Sign(aimDir.x), 1f, 1f);
             if(currentWeapon) {
+
                 Vector3 aimDir3D = new Vector3(aimDir.x, 0f, aimDir.y);
                 currentWeapon.transform.rotation = Quaternion.AngleAxis(-90, Vector3.up) * Quaternion.LookRotation(aimDir3D * Mathf.Sign(aimDir.x));
                 currentWeapon.transform.position = transform.position + aimDir3D*weaponDist;
+
+                Reticle.transform.rotation = currentWeapon.transform.rotation;
+                Reticle.transform.position = transform.position + aimDir3D * (weaponDist + 1f);
             }
         }
+
     }
 
     public bool PickupWeapon(PooledObjectType weaponType)
@@ -78,6 +85,7 @@ public class PlayerCharacter : MonoBehaviour, IDamageable
         bool pickedUp = !currentWeapon;
         if(pickedUp)
         {
+            Reticle.SetActive(true);
             currentWeapon = ObjectPoolManager.GetPooledObject(weaponType).GetComponent<WeaponBase>();
             currentWeapon.transform.position = transform.position + Vector3.right * weaponDist;
             currentWeapon.transform.parent = transform;
