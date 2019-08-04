@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3649757582329712078}
   - component: {fileID: 7769894406508487542}
   - component: {fileID: 8907622051327661869}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: WeaponPickup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -89,7 +89,7 @@ GameObject:
   - component: {fileID: 8185780985384088713}
   - component: {fileID: 8980120703297100358}
   - component: {fileID: 5503727401301511312}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}

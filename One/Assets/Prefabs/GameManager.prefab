@@ -136,3 +136,7 @@ MonoBehaviour:
   - ObjectType: 1
     prefab: {fileID: 150583419607014987, guid: ad23c9f0fcff2f44d8be4c128196fce0, type: 3}
     NumToPreinstantiate: 15
+  - ObjectType: 9
+    prefab: {fileID: 2966201683515039227, guid: 7049dd8a533fa714f8dc72424a9b0dcd,
+      type: 3}
+    NumToPreinstantiate: 10

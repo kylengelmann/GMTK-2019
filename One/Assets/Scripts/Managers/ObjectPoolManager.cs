@@ -16,6 +16,7 @@ public enum PooledObjectType
     DeathExplosion,
     Shotgun,
     OneGun,
+    AudioSource,
 }
 
 public class ObjectPoolManager : MonoBehaviour

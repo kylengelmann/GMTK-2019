@@ -17,6 +17,7 @@ public class Shotgun : BasicGun
             ShootProjectile(FirePoint.position, dirRot * dir);
             dirRot = stepRot * dirRot;
         }
+        Pew();
         Break();
     }
 

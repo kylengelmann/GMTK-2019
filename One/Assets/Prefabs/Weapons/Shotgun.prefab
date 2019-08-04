@@ -171,5 +171,6 @@ MonoBehaviour:
   pooledObjectType: 7
   bullet: 0
   FirePoint: {fileID: 3858035660424156048}
+  pew: {fileID: 8300000, guid: 11d9fe5523848334a9f1d53d44854309, type: 3}
   numShots: 5
   spread: 60

@@ -139,7 +139,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &7068397045157771622
 Transform:
   m_ObjectHideFlags: 0
@@ -171,3 +171,4 @@ MonoBehaviour:
   pooledObjectType: 2
   bullet: 0
   FirePoint: {fileID: 1205535191}
+  pew: {fileID: 8300000, guid: 11d9fe5523848334a9f1d53d44854309, type: 3}
