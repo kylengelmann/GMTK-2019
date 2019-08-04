@@ -53,6 +53,9 @@ MonoBehaviour:
   - weapon: 2
     sprite: {fileID: -3264594361583143485, guid: d999f63e3f6766747b1cf3611c89bd5e,
       type: 3}
+  - weapon: 7
+    sprite: {fileID: -6367717394137300216, guid: d999f63e3f6766747b1cf3611c89bd5e,
+      type: 3}
 --- !u!114 &669682338
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -118,3 +121,11 @@ MonoBehaviour:
     prefab: {fileID: 1788996153971640987, guid: 1ee301c1140a49849bb50d5b183b40ab,
       type: 3}
     NumToPreinstantiate: 10
+  - ObjectType: 6
+    prefab: {fileID: 9078779940981987174, guid: f30d11f5ed991df409d85593a2583bb5,
+      type: 3}
+    NumToPreinstantiate: 10
+  - ObjectType: 7
+    prefab: {fileID: 6125811106136440893, guid: c43d4d3d8967eed439d78f49c464f0c1,
+      type: 3}
+    NumToPreinstantiate: 3

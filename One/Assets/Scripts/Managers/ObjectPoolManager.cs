@@ -13,6 +13,7 @@ public enum PooledObjectType
     GunDum,
     WeaponPickup,
     DeathExplosion,
+    Shotgun,
 }
 
 public class ObjectPoolManager : MonoBehaviour
