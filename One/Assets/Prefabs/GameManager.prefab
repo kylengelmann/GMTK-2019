@@ -129,3 +129,7 @@ MonoBehaviour:
     prefab: {fileID: 6125811106136440893, guid: c43d4d3d8967eed439d78f49c464f0c1,
       type: 3}
     NumToPreinstantiate: 3
+  - ObjectType: 1
+    prefab: {fileID: 7015057375514979062, guid: c843ee0e48b23314dab4e3f03cd5cb59,
+      type: 3}
+    NumToPreinstantiate: 15

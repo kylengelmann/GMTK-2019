@@ -24,6 +24,9 @@ public class BasicEnemy : MonoBehaviour, IDamageable
 
     public float speed;
 
+    public PooledObjectType bullets = PooledObjectType.None;
+    public float shootCooldown;
+
     
     NavMeshAgent agent;
 
@@ -84,6 +87,8 @@ public class BasicEnemy : MonoBehaviour, IDamageable
 
     float timeSinceDestSet;
 
+    float timeSinceLastShoot;
+
 
     private void Update()
     {
@@ -95,10 +100,26 @@ public class BasicEnemy : MonoBehaviour, IDamageable
         agent.SetDestination(targetPos);
 
         transform.localScale = new Vector3(Mathf.Sign(targetPos.x - transform.position.x), 1f, 1f);
+
+        timeSinceLastShoot += TimeManager.GetTimeDelta(TimeChannel.World);
+        if(timeSinceLastShoot > shootCooldown && shootCooldown > 0.1f)
+        {
+            Shoot();
+            timeSinceLastShoot = 0f;
+        }
     }
 
 
-    protected virtual void Shoot() { }
+    protected virtual void Shoot() 
+    {
+        if(bullets == PooledObjectType.None) return;
+        
+        GameObject bulletGO = ObjectPoolManager.GetPooledObject(bullets);
+        bulletGO.transform.position = transform.position;
+        BasicProjectile bullet = bulletGO.GetComponent<BasicProjectile>();
+        bullet.Fire(GameManager.Player.transform.position - transform.position);
+        bulletGO.SetActive(true);
+    }
 
     private void OnTriggerEnter(Collider other)
     {

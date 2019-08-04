@@ -6,6 +6,7 @@ using UnityEngine.Events;
 
 public enum PooledObjectType
 {
+    None = -1,
     PlayerBullet,
     EnemyBullet,
     Pistol,
@@ -14,6 +15,7 @@ public enum PooledObjectType
     WeaponPickup,
     DeathExplosion,
     Shotgun,
+    OneGun,
 }
 
 public class ObjectPoolManager : MonoBehaviour
